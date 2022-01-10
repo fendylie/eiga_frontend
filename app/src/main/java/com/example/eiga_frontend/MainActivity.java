@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.RelativeLayout;
@@ -12,7 +13,6 @@ import android.widget.RelativeLayout;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
-
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
+        if(GlobalVariable.id == ""){
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        }
     }
 
 }
