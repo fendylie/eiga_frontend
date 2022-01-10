@@ -9,6 +9,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_gray">#FF3E3E3E</color>
 
+    <color name="colorPrimary">#212d3b</color>
+    <color name="colorPrimaryDark">#161d27</color>
+    <color name="colorRating">#FBC02D</color>
+    <color name="colorAccent">#52a2f7</color>
+    <color name="colorDark">#414449</color>
+
     <!-- Android style -->
     <color name="android_green">#A4C639</color>
 
