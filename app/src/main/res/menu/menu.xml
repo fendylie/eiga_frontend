@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Sign Up"
+        android:id="@+id/signup"/>
+    <item
+        android:title="Genre"
+        android:id="@+id/genre"/>
+    <item
+        android:title="About Us"
+        android:id="@+id/aboutus"/>
+    <item
+        android:title="Quit"
+        android:id="@+id/Quit"/>
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_24"
+        app:showAsAction="always"/>
+
+
+
+</menu>
